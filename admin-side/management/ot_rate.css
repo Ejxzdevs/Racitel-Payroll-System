@@ -1,0 +1,888 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'arial';
+	overflow: hidden;
+
+}
+
+
+.home-navigation-bar ul li p{
+	font-size: 2rem;
+	position: relative;
+	left: 20%;
+	top: 7%;
+	font-family: "Roboto Mono",monospace;
+	color: white;
+
+}
+
+.home-navigation-bar ul li p span{
+	color:  violet;
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: 'Times New Roman';
+}
+
+
+.home-navigation-bar ul li:nth-child(1){
+	pointer-events: none;
+	height:80PX;
+	background: #063146;
+
+}
+
+/*sub navi*/
+
+#sub-nav{
+	display: none;
+	background: #063146;
+
+
+
+}
+
+#nav{
+	position: relative;
+	padding: 4% 0;
+	
+	
+}
+
+#nav > a{
+	position: relative;
+	left: 5em;
+	font-size: 1.2rem;
+	text-decoration: none;
+	right: -.5em;
+	color: white;
+	font-weight: bold;
+
+}
+
+#nav > a:hover{
+	color: crimson;
+	transition: .3s;
+}
+
+#nav > img{
+	position: absolute;
+	right: 10em;
+	height: 1.5em;
+	width: 1.5em;
+	
+}
+
+
+
+
+#arr-right{
+	position: relative;
+	width: 1em;
+	height: 1em;
+	left: 1em;
+	top: .2em;
+	display: inline;
+}
+
+#arr-up{
+	position: relative;
+	width: .8em;
+	height: .8em;
+	left: 4em;
+	top: .2em;
+}
+
+/**/
+.home-navigation-bar ul li label{
+	color: white;
+	font-size: 1.2rem;
+	padding: 0 22%;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.background {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.background .system-logo{
+	width: 100%;
+	height: 7%;
+	background: #042331;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	pointer-events: none;
+	border-bottom: solid 1px black;
+	
+}
+
+.system-logo .logo{
+	color: #fff;
+	font-family: 'arial';
+	overflow: hidden;
+	font-size: 22px;
+	top: 25%;
+	position: relative;
+}
+
+
+
+.div-background{
+	position: relative;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background-color: yellow;
+}
+
+.home-navigation-bar{
+	width: 22%;
+	height: 100%;
+	background: #042331;
+	position: relative;
+	overflow: hidden;
+	/*border-left: solid black 1px;
+	border-right: solid black 1px;*/
+	/*border: 1px solid black;*/
+}
+
+
+.home-navigation-bar ul{
+	position: relative;
+	list-style: none;
+}
+
+
+
+.home-navigation-bar ul li{
+	padding: 3% 5%;
+	border-bottom: solid black .5px;
+
+
+}
+
+
+
+.home-navigation-bar ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: white;
+	padding: 0 10%;
+	
+
+
+}
+
+.home-navigation-bar ul li a:hover{
+	transition-duration: .3s;
+	transition-property: all;
+	color: crimson;
+
+}
+
+
+
+
+
+
+.home-navigation-bar img{
+	height: 2rem;
+	width: 2rem;
+	position: relative;
+	right: 1rem;
+	top: .4rem;
+}
+
+/*home*/
+
+.home-content{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #E4E9F7;
+	/*background-color: white;*/
+
+}
+
+/*.payroll-box {
+	position: relative;
+	height: 80%;
+	width: 80%;
+	background: red;
+	left: 5%;
+	top: 5%;
+}*/
+
+.box-payroll {
+	position: relative;
+	width: 105%;
+	height: 100%;
+	background:#E4E9F7 ;
+	border: solid 1px black;
+
+}
+
+.payroll-nav-bar {
+	position: relative;
+	border: 20px;
+	height: 8%;
+	width: 45%;
+	border-radius: 5px;
+	left: 2%;
+	top: 3.2%;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.payroll-nav-bar ul{
+	display: flex;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	box-shadow: 2px 5px 2px;
+}
+
+.payroll-nav-bar ul li{
+	position: relative;
+	border-top: solid 2PX black;
+	border-right: solid 2PX black;
+	width:50%;
+	height: 100%;
+	display: flex;
+}
+
+#img_salary{
+	position: relative;
+	height: 2.2rem;
+	width: 2.2rem;
+	top: .3rem;
+	left: 2rem;
+}
+
+
+
+#img_history{
+	position: relative;
+	height: 2.5rem;
+	width: 2.5rem;
+	top: .15rem;
+	left: 1.8rem;
+}
+
+
+.payroll-nav-bar ul li a{
+	text-decoration: none;
+	position: relative;
+	font-family: 'Roboto';
+	letter-spacing: 3px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: white;
+	margin-right: 3.2rem;
+	left: 3rem;
+	top: .5rem;
+}
+
+/*salary*/
+
+.salary{
+	position: relative;
+	height: 85%;
+	width: 90%;
+	border-bottom: solid black 2px;
+	border-left: solid black 2px;
+	border-right: solid black 2px;
+	box-shadow: 2px 2px 4px;
+	background-color: #f2f2f2;
+	left: 2%;
+	top: 3%;
+}
+
+.salary-header{
+	position: relative;
+	height: 10%;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+}
+
+
+/*left*/
+
+.salary-header-left{
+	position: relative;
+	width: 50%;
+	height: 100%;
+/*	background-color: #E4E9F7;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.salary-header-left label{
+	position: relative;
+	border: solid 2px black;
+	width: 4em;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 1.5em;
+	color: crimson;
+/*	border-radius: 4px;*/
+	margin-left: 2em;
+	height: 1.5em;
+	margin-top: .5em;
+	font-weight: bolder;
+
+}
+
+.salary-header-left a{
+	position: relative;
+	border: solid 2px green;
+	width: 2em;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	left: 1em;
+	color: crimson;
+	border-radius: 4px;
+	height: 1.5em;
+	padding: 1em;
+	margin-top: .7em;
+
+}
+
+#ot_edit{
+	height: 1.6em;
+	width: 1.6em;
+}
+
+
+/*right*/
+
+
+
+.salary-header-right{
+	position: relative;
+	width: 50%;
+	height: 100%;
+/*	background-color: yellow;*/
+}
+
+.salary-header-right form{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+
+	justify-content: right;
+	align-items: center;
+}
+
+.salary-header-right form .containter-search{
+	position: relative;
+	/*border: solid 1px black;*/
+	width: 350px;
+	height: 3em;
+	color: gray;
+	background-color: white;
+	box-shadow: 2px 2px 4px ;
+	border-radius: 5px;
+	padding: .2em;
+
+
+
+}
+
+.containter-search .containter-input-search{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #75a3a3;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	padding: .2em;
+
+}
+
+.containter-input-search .input{
+	position: relative;
+	width: 70%;
+	height: 100%;
+	padding-left: .6em;
+	font-size: 1em;
+	outline: none;
+	margin-left: 1em;
+}
+
+.containter-input-search .search{
+	position: relative;
+	width: 20%;
+	height: 100%;
+}
+
+
+
+#img_search{
+	position: relative;
+	height: 1.6em;
+	width: 1.6em;
+	top: .2em;
+	left: .4em;
+	
+}
+
+/*body*/
+
+.salary-body{
+	position: relative;
+	left: 1%;
+	height: 75%;
+	width: 97%;
+	border: solid 2px #c2c2a3;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px ;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.payroll-table{
+	position: relative;
+	border-collapse:collapse;
+
+}	
+
+.payroll-table thead tr{
+	background-color: #009879;
+	
+}
+
+.payroll-table thead th{
+	width: 250px;
+	padding: 12px 0;
+	font-size: 1rem;
+
+	
+
+}
+
+.payroll-table tbody tr{
+	text-align: center;
+	color: #2e2e1f;
+	border: solid #ddd 1px;
+	cursor: pointer;
+	
+}
+
+.payroll-table tbody tr:hover{
+	transform: scale(1.001);
+	text-align: center;
+	box-shadow: 2px 4px 2px rgba(30, 30, 30, .5), 2px 2px 4px rgba(0, 0, 0, .5);
+
+}
+
+.payroll-table tbody tr td{
+	font-family: Trebuchet MS ;
+	height: 30px;
+}
+
+.payroll-table tbody tr:nth-child(even)
+{
+	background-color: #d6d6c2;
+
+}
+
+
+
+
+
+#edit-icon{
+	position: relative;
+	height: 2em;
+	width: 2em;
+	border-radius: 3px;
+	padding: .3em;
+	border: solid #4d88ff 2px;
+}
+
+/*pop up salary edit*/
+.pop-salary-edit{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .8);
+
+
+}
+
+.pop-salary-edit .pop-box{
+	position: relative;
+	height: 25%;
+	width: 60%;
+	left: 25%;
+	top: 15%;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color:  #E4E9F7;
+}
+
+.pop-box form{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+/*header*/
+
+.pop-box form .header{
+	position: relative;
+	height: 20%;
+	width: 100%;
+	background-color: dimgrey; 
+	display: flex;
+}
+
+#edit-close{
+	position: relative;
+	height: 1.6em;
+	width: 1.6em;
+	left: 41.8em;
+	top: .2em;
+
+}
+
+.pop-box form .header label{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+	left: 18em;
+	position: relative;
+	top: .3em;
+
+}
+
+/*body*/
+
+.pop-box form .body{
+	position: relative;
+	height: 80%;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+}
+
+.body .input-label{
+	position: relative;
+	height: 100%;
+	width: 20%;
+	/*background-color: grey;*/
+}
+
+
+#img-emp{
+	position: relative;
+	height: 5em;
+	width: 5em;
+	position: relative;
+	left: 2em;
+	top: 1.3em;
+	border: solid 1px black;
+	padding: .4rem .4rem;
+	border-radius: 10px;
+	background: dimgrey;
+}
+
+.body .input-label-name{
+	position: relative;
+	height: 100%;
+	width: 21%;
+	/*background-color: green;*/
+	display: block;
+}
+
+.div-input{
+	position: relative;
+	height: 50%;
+	width: 100%;
+}
+
+
+.div-input .name{
+	font-weight: 600;
+	top: 2em;
+	left: 2em;
+	position: relative;
+
+}
+
+.div-input p{
+	font-weight: 300;
+	left: .5em;
+	position: relative;
+	top: -.1em;
+
+}
+
+.body .input-label-hourly-salary{
+	position: relative;
+	height: 100%;
+	width: 20%;
+	/*background-color: yellow;*/
+}
+
+.div-input  label{
+	font-weight: 600;
+	top: 1.8em;
+	left: .5em;
+	position: relative;
+
+}
+
+.div-input  input{
+	font-weight: 300;
+	left: .2em;
+	top: -.8em;
+	height: 2em;
+	width: 8em;
+	position: relative;
+	padding-left: 3em;
+	outline: none;
+	border-radius: 5px;
+	background-color:#E4E9F7 ;
+
+}
+
+.input-label-basic-salary{
+	position: relative;
+	width: 17%;
+	height: 100%;
+	/*background-color: blue;*/
+}
+
+.input-label-basic-salary label{
+	font-weight: 600;
+	top: 1.8em;
+	left: .2em;
+	position: relative;
+
+}
+
+.input-label-basic-salary p {
+	position: relative;
+	top: -.5em;
+	left: 2em;
+	font-weight: bold;
+}
+
+.input-label-button{
+	position: relative;
+	height: 100%;
+	width: 22%;
+	/*background-color: brown;*/
+
+}
+.input-label-button button{
+	position: relative;
+	left: 1.5em;
+	top: 2.4em;
+	display: flex;
+	height: 2.2rem;
+	width: 6rem;
+	text-decoration: none;
+	color: #00004d;
+	border: black solid 2px;
+	border-radius: 10px;
+	text-align: right;
+	font-size: 1.2rem;
+	position: relative;
+	font-family: Trebuchet MS ;
+	box-shadow: 0px 8px 0px rgba(30, 30, 30, .2), 0px 8px 12px rgba(0, 0, 0, .5);
+	background: linear-gradient(to right ,rgba(0, 0, 0, .3) 0 ,rgba(0, 0, 0, .3) 25% , #66a3ff 30%,  #66a3ff 100%);
+	transition: all 1.5 ease;
+	transition-duration: .5s ;
+	padding-left: 2rem;
+	padding-top: .2rem;
+	letter-spacing: 3PX;
+}
+
+.input-label-button button:Active{
+	box-shadow: none;
+	top: 3em;
+}
+
+
+#save-salary-edit{
+	position: absolute;
+	right: 3.7em;
+	top: .5em;
+}
+
+
+
+/*edit salary pop up*/
+
+
+
+.pop-up-edit{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 110%;
+	width: 130%;
+	right: 0%;
+	bottom: 0%;
+	background: rgba(0, 0, 0, .8);
+}
+
+.box-salary{
+	position: relative;
+	height: 40%;
+	width: 25%;
+	left: 3em;
+	background-color: white;
+	bottom: 6em;
+}
+
+.box-salary form{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color:  #E4E9F7;
+}
+
+form .header{
+	position: relative;
+	height: 15%;
+	width: 100%;
+	background-color: dimgrey;
+	display: flex;
+	flex-direction:row;
+}
+
+
+form .header label{
+	position: relative;
+	font-size: 1.2em;
+	font-weight: 600;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100%;
+	color: white;
+	width: 90%;
+/*	background-color: yellow;*/
+	padding-left: 1em;
+}
+
+form .header a{
+	position: relative;
+	font-size: 1.2em;
+	font-weight: 600;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100%;
+	color: white;
+	width: 10%;
+	padding-right:1em ;
+/*	background-color: yellow;*/
+}
+
+#close-id{
+	position: absolute;
+	height: 1.5em;
+	width: 1.5em;
+
+}
+
+form .body{
+	position: relative;
+	height: 85%;
+	width: 100%;
+/*	background-color: yellow;*/
+	display: flex;
+	flex-direction: column;
+}
+
+.body .name{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 50%;
+	width: 100%;
+/*	background-color: black;*/
+}
+
+.name label{
+	position: relative;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.name input{
+	height: 2.4em;
+	width: 10em;
+	border-radius: 3px;
+	text-align: center;
+}
+
+
+
+
+
+/*button*/
+
+form .button{
+	position: relative;
+/*	background-color: dimgrey;*/
+	height: 50%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+form .button button{
+position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border: 1px black solid;
+	font-family: Trebuchet MS ;
+	color: white;
+	background-color: rgba(0, 0, 200, .8);
+	transition: all 1.5 ease;
+	transition-duration: .5s;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 1rem;
+	border-radius: 5px;
+	width: 8rem;
+	font-weight: 600;
+	height: 2.5rem;
+	bottom: 2em;
+
+
+}
+
+

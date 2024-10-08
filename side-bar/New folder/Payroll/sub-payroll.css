@@ -1,0 +1,742 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'arial';
+	overflow: hidden;
+
+}
+
+
+.home-navigation-bar ul li p{
+	font-size: 2rem;
+	position: relative;
+	left: 20%;
+	top: 7%;
+	font-family: "Roboto Mono",monospace;
+	color: white;
+
+}
+
+.home-navigation-bar ul li p span{
+	color:  violet;
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: 'Times New Roman';
+}
+
+
+.home-navigation-bar ul li:nth-child(1){
+	pointer-events: none;
+	height:80PX;
+	background: #063146;
+
+
+}
+
+
+.home-navigation-bar ul li label{
+	color: black;
+	font-size: 1.2rem;
+	padding: 0 22%;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	color: white ;
+
+	}
+
+.background {
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+.background .system-logo{
+	width: 100%;
+	height: 7%;
+	background: #042331;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	pointer-events: none;
+	border-bottom: solid 1px black;
+
+
+
+}
+
+.system-logo .logo{
+	color: #fff;
+	font-family: 'arial';
+	overflow: hidden;
+	font-size: 22px;
+	top: 25%;
+	position: relative;
+
+}
+
+
+
+.div-background{
+	position: relative;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background: #e6e6e6;
+}
+
+.home-navigation-bar{
+	width: 22%;
+	height: 100%;
+	background: #042331;
+	position: relative;
+	overflow: hidden;
+	/*border-left: solid black 1px;
+	border-right: solid black 1px;*/
+	/*border: 1px solid black;*/
+}
+
+
+
+.home-navigation-bar ul{
+	position: relative;
+	list-style: none;
+
+}
+
+
+
+.home-navigation-bar li{
+	border-bottom: solid 1px black;
+	padding: 4% 0;
+
+
+
+}
+
+.home-navigation-bar li:hover{
+	background: rgba(0, 0, 0, .2) ;
+	border-radius: 25px 0px 0px 25px;
+	left: 10%;
+	position: relative;
+
+}
+
+.home-navigation-bar ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: white;
+	padding: 0 15%;
+}
+
+.home-navigation-bar ul li a:hover{
+	margin-left: 10%;
+	transition-duration: .8s;
+	transition-property: all;
+	padding: 0 15%;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: crimson;
+
+}
+
+.home-navigation-bar ul li a img{
+	height: 1.5rem;
+	margin-right: 5%;
+	position: relative;
+}
+
+/*home*/
+
+.home-content{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #E4E9F7;
+	/*background-color: white;*/
+
+}
+
+/*.payroll-box {
+	position: relative;
+	height: 80%;
+	width: 80%;
+	background: red;
+	left: 5%;
+	top: 5%;
+}*/
+
+.box-payroll {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background:#E4E9F7 ;
+	border: solid 1px black;
+
+}
+
+.payroll-nav-bar {
+	position: relative;
+	border: 20px;
+	height: 8%;
+	width: 45%;
+	border-radius: 5px;
+	left: 2%;
+	top: 3.2%;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.payroll-nav-bar ul{
+	display: flex;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	box-shadow: 2px 5px 2px;
+}
+
+.payroll-nav-bar ul li{
+	position: relative;
+	border-top: solid 2PX black;
+	border-right: solid 2PX black;
+	width: 50%;
+	height: 100%;
+	display: flex;
+}
+.payroll-nav-bar ul li a{
+	text-decoration: none;
+	position: relative;
+	font-family: 'Roboto';
+	letter-spacing: 3px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: white;
+	margin-right: 3.2rem;
+	left: 3rem;
+	top: .5rem;
+}
+
+#img_salary{
+	position: relative;
+	height: 2.2rem;
+	width: 2.2rem;
+	top: .3rem;
+	left: 2rem;
+}
+
+
+
+#img_history{
+	position: relative;
+	height: 2.5rem;
+	width: 2.5rem;
+	top: .15rem;
+	left: 1.8rem;
+}
+
+/*salary*/
+
+.salary{
+	position: relative;
+	height: 80%;
+	width: 90%;
+	border-bottom: solid black 2px;
+	border-left: solid black 2px;
+	border-right: solid black 2px;
+	box-shadow: 2px 2px 4px;
+	background-color: #f2f2f2;
+	left: 2%;
+	top: 3%;
+}
+
+.salary-header{
+	position: relative;
+	height: 10%;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+}
+
+
+/*left*/
+
+.salary-header-left{
+	position: relative;
+	width: 50%;
+	height: 100%;
+/*	background-color: #E4E9F7;*/
+}
+
+
+/*right*/
+
+
+
+.salary-header-right{
+	position: relative;
+	width: 50%;
+	height: 100%;
+/*	background-color: yellow;*/
+}
+
+.salary-header-right form{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.salary-search{
+	width: 70%;
+	height: 65%;
+	position: relative;
+	border-radius: 10rem;
+	border: 2.5px solid #9900cc;
+	background-color: rgba(0, 0, 0,.3);
+	padding: 0 6%;
+	font-size: 1.2rem;
+	font-family: 'arial';
+	color: black;
+	top: 15%;
+	left: 20%;
+}
+
+.salary-header-right form button{
+	position: relative;
+	left: 17%;
+	top: 27%;
+	border-collapse: collapse;
+	height: 2rem;
+	border: none;
+	background-color: transparent;
+	border-radius: 50%;
+}
+
+.salary-header-right form i{
+	font-size: 1.2rem;
+	bottom: .3em;
+	right: 1.8em;
+	position: relative;
+
+}
+
+/*body*/
+
+.salary-body{
+	position: relative;
+	left: 1%;
+	height: 75%;
+	width: 97%;
+	border: solid 2px #c2c2a3;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px ;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.payroll-table{
+	position: relative;
+	border-collapse:collapse;
+
+}	
+
+.payroll-table thead tr{
+	background-color: #009879;
+	
+}
+
+.payroll-table thead th{
+	width: 190px;
+	padding: 12px 0;
+	font-size: 1rem;
+
+	
+
+}
+
+.payroll-table tbody tr{
+	text-align: center;
+	color: #2e2e1f;
+	border: solid #ddd 1px;
+	cursor: pointer;
+	
+}
+
+.payroll-table tbody tr:hover{
+	transform: scale(1.001);
+	text-align: center;
+	box-shadow: 2px 4px 2px rgba(30, 30, 30, .5), 2px 2px 4px rgba(0, 0, 0, .5);
+
+}
+
+.payroll-table tbody tr td{
+	font-family: Trebuchet MS ;
+	height: 30px;
+}
+
+.payroll-table tbody tr:nth-child(even)
+{
+	background-color: #d6d6c2;
+
+}
+
+
+/*lower-option*/
+.salary-lower{
+	position: relative;
+	/*background-color: yellow;*/
+	width: 100%;
+	height: 15%;
+	display: flex;
+}
+
+.salary-lower-left{
+	position: relative;
+	height: 100%;
+	width: 50%;
+	/*background-color: grey;*/
+}
+
+.salary-lower-right{
+	position: relative;
+	height: 100%;
+	width: 50%;
+	display: flex;
+	/*background-color: yellow;*/
+}
+
+.salary-lower-right .right-1{
+	position: relative;
+	/*background-color: green;*/
+	height: 100%;
+	width: 50%;	
+}
+
+.salary-lower-right .right-2{
+	position: relative;
+	/*background-color: white;*/
+	height: 100%;
+	width: 50%;	
+	display: flex;
+}
+
+.right-2 .img_create{
+	position: absolute;
+	height: 1.5rem;
+	width: 1.7rem;
+	left: .3rem;
+	top: .4rem;
+
+}
+
+
+
+.right-2 .btn_payroll{
+	height: 2.5rem;
+	width: 8.5rem;
+	text-decoration: none;
+	color: white;
+	border: black solid 1px;
+	border-radius: 10px;
+	text-align: center;
+	/*padding-right: .3rem ;
+	padding-top: .7rem;*/
+	top: .5rem;
+	padding-top: .4em;
+	font-size: 1rem;
+	position: relative;
+	font-family: Trebuchet MS ;
+	box-shadow: 0px 8px 0px rgba(30, 30, 30, .2), 0px 8px 8px rgba(0, 0, 0, .5);
+	/*background: linear-gradient(to right ,rgba(0, 0, 0, .3) 0 ,rgba(0, 0, 0, .3) 25% , #33cc00 30%,  #33cc00 100%);*/
+	background-color: rgba(0, 0, 150, .8);
+	transition: all 1.5 ease;
+	transition-duration: .5s ;
+	left: 3rem;
+}
+
+.right-2 .btn_payroll:active{
+	box-shadow: none;
+	top: 15px;
+}
+
+/*pop-up salary input */
+.popup-salary{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	display: flex;
+}
+
+#date{
+	position: absolute;
+	left: 1.6em;
+	top: 2.7em;
+	font-family: realtime-clock;
+	font-size: 5em;
+	letter-spacing: 6px;
+	border: solid 3px #b3b3ff;
+	border-radius: 5px;
+	padding: .8em .8em;
+	color: black;
+	color: rgba(0, 255, 255, .8);
+	background: rgba(0, 0, 0, .4);
+	/*background: white;*/
+	box-shadow: 0px 4px 0px rgba(30, 30, 30, .2), 0px 4px 20px;
+}
+
+.box-salary{
+	position: relative;
+	height: 45%;
+	width: 38%;
+	background-color: #E4E9F7;
+	left: 57%;
+	top: 27%;
+	border: 2px black solid;
+	box-shadow: 2px 2px 4px;
+	border-radius: 5px ;
+}
+
+.box-salary form{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+
+.box-salary form .pop-salary-header{
+	position: relative;
+	width: 100%;
+	height: 13%;
+	background-color: #334d4d;
+}
+
+.pop-salary-header label{
+	position: relative;
+	left: 39%;
+	top: 12%;
+	font-weight: 600;
+	font-size: 1.7rem;
+	font-family: ;
+	letter-spacing: 2px;
+	color: white;
+	font-family: 'Times New Roman';
+}
+
+.box-salary form .pop-salary-body{
+	position: relative;
+	width: 100%;
+	height: 62%;
+	/*background-color: white;*/
+	display: flex;
+}
+
+
+
+ .filter-salary-date-left{
+	position: relative;
+	width: 50%;
+	height: 70%;
+/*	background-color: yellow;*/
+}
+
+.filter-salary-date-left label{
+	position: relative;
+	font-weight: bold;
+	font-size: 1.3rem;
+	left: 45%;
+	top: 20%;
+}
+
+.filter-salary-date-left input{
+	position: relative;
+	font-weight: 300;
+	font-size: 1.2rem;
+	height: 40px;
+	border-radius: 5px;
+	padding: 0% 3%;
+	left: 0%;
+	top: 55%;
+	width: 200px;
+	font-family: Trebuchet MS ;
+	font-weight: bold;
+	
+}
+.filter-salary-date-left input:hover ,.filter-salary-date-right input:hover , .header-body-salary input:hover{
+	border: 2px solid #c21bb1;
+}
+
+.filter-salary-date-right{
+	position: relative;
+	width: 50%;
+	height: 70%;
+	/*background-color: rebeccapurple;*/
+}
+
+.filter-salary-date-right label{
+	position: relative;
+	font-weight: bold;
+	font-size: 1.3rem;
+	left: 35%;
+	top: 20%;
+
+}
+
+.filter-salary-date-right input{
+	position: relative;
+	font-weight: 300;
+	font-size: 1.2rem;
+	height: 40px;
+	border-radius: 5px;
+	padding: 0% 3%;
+	left: -5%;
+	top: 55%;
+	width: 200px;
+
+	font-family: Trebuchet MS ;
+	font-weight: bold;
+	
+}
+
+.popup-salary-lower{
+	display: flex;
+	position: relative;
+	height: 25%;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+}
+
+.popup-salary-lower .popup-salary-lower-left {
+	display: flex;
+	position: relative;
+	height: 100%;
+	width: 50%;
+	/*background-color: yellow;*/
+}
+
+.popup-salary-lower .popup-salary-lower-left button{
+	position: relative;
+	left: 40%;
+	height: 40px;
+	width: 120px;
+	padding: 2% 0;
+	font-weight: 500;
+	background: rgba( 0, 0, 200, 1); /*#85a3e0;*/
+	border-radius: 5px;
+	border: #aba7a7 1px solid;
+	box-shadow: 0px 8px 0px rgba(30, 30, 30, .2), 0px 8px 20px rgba(0, 0, 0, .5) ;
+	font-size: 1.3rem;
+	font-family: Trebuchet MS ;
+	transition: all 0.5 ease;
+	transition-duration: 1s;
+	cursor: pointer;
+	color: white;
+	letter-spacing: 2px;
+	top: -50%;
+
+}
+
+.popup-salary-lower .popup-salary-lower-left button:hover{
+	position: relative;
+	left: 40%;
+	top: -50%;
+	height: 40px;
+	width: 120px;
+	padding: 2% 0;
+	font-weight: 500;
+	background: rgba( 0, 0, 250, .8); /*#85a3e0;*/
+	border-radius: 5px;
+	border: #ddd 1px solid;
+	box-shadow: 0px 8px 0px rgba(30, 30, 30, .2), 0px 8px 20px rgba(0, 0, 0, .5) ;
+	font-size: 1.3rem;
+	font-family: Trebuchet MS ;
+	transition: all 0.5 ease;
+}
+
+.popup-salary-lower .popup-salary-lower-left button:active{
+	box-shadow: none;
+	top: -32px;
+}
+
+.popup-salary-lower .popup-salary-lower-right {
+	display: flex;
+	position: relative;
+	height: 100%;
+	width: 50%;
+	/*background-color: blue;*/
+}
+
+
+.popup-salary-lower .popup-salary-lower-right a{
+	position: relative;
+	left: 10%;
+	height: 40px;
+	width: 120px;
+	padding: 2% 7%;
+	font-weight: 500;
+	background: rgba( 200, 0, 0, 1); /*#85a3e0;*/
+	border-radius: 5px;
+	border: #aba7a7 1px solid;
+	box-shadow: 0px 8px 0px rgba(30, 30, 30, .2), 0px 8px 20px rgba(0, 0, 0, .5) ;
+	font-size: 1.3rem;
+	font-family: Trebuchet MS ;
+	transition: all 0.5 ease;
+	transition-duration: 1s;
+	cursor: pointer;
+	color: white;
+	letter-spacing: 2px;
+	text-decoration: none;
+	top: -50%;
+
+}
+
+.popup-salary-lower .popup-salary-lower-right a:hover{
+	position: relative;
+	left: 10%;
+	height: 40px;
+	width: 120px;
+	padding: 2% 7%;
+	font-weight: 500;
+	background: rgba( 250, 0, 0, .8); /*#85a3e0;*/
+	border-radius: 5px;
+	border: #ddd 1px solid;
+	box-shadow: 0px 8px 0px rgba(30, 30, 30, .2), 0px 8px 20px rgba(0, 0, 0, .5) ;
+	font-size: 1.3rem;
+	font-family: Trebuchet MS ;
+	transition: all 0.5 ease;
+	top: -50%;
+}
+
+.popup-salary-lower .popup-salary-lower-right a:active{
+	box-shadow: none;
+	top: -42%;
+
+
+}
+
+
+#view-icon{
+	height: 2em;
+	width: 2em;
+	border-radius: 3px;
+	padding: .3em;
+	border: solid #4d88ff 2px;
+
+
+}
+
+#view-icon:hover{
+	border: solid #00e600 2px;
+	
+}

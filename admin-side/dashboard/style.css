@@ -1,0 +1,133 @@
+@font-face{
+	font-family: label;
+	src: url  url(../../font/kanit/Kanit-Light.ttf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'arial';
+	overflow: hidden;
+}
+
+.container{
+		position: relative;
+		height:100%;
+		width: 100%;
+}
+
+.sub-container{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	background: #E4E9F7;
+	flex-wrap: wrap;
+	overflow-y: auto;
+}
+.dashboard-box{
+	position: relative;
+	height: 300px;
+	width:350px;
+	border: solid 1px black;
+	background:#E4E9F7;
+	margin-left: .3em;
+	margin-top: .2em;
+	display: none;
+
+}
+/* count of employees */
+
+#no_employees{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-emp{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border: 1px solid black;
+	background: white;
+	width: 80%;
+	height: 60%;
+	flex-direction: column;
+	box-shadow: 2px 2px 2px dimgray;
+	border-radius: 5px;
+}
+
+.top-emp{
+	height: 70%;
+	width: 100%;
+/*	background: blue;*/
+	display: flex;
+	flex-direction: row;
+
+}
+
+.bot-emp{
+	height: 30%;
+	width: 100%;
+	background: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: dimgray;
+}
+
+.bot-emp label{
+	position: relative;
+	font-weight: 600;
+	font-size: 1.2em;
+	font-family: 'Verdana';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
+
+}
+
+.num_label{
+	position: relative;
+	height: 100%;
+	width:40%;
+/*	background: green;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.num_label p{
+	font-size: 5em;
+	color: black;
+	font-weight: 600;
+
+}
+
+.num_image{
+	position: relative;
+	height: 100%;
+	width:60%;
+/*	background: orange;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.num_image img{
+	height: 9em;
+	width: 9em;
+}
